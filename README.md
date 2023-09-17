@@ -165,3 +165,7 @@ Each of the version 2 programs include an error as well.
 - [RabbitMQ Get Started](https://www.rabbitmq.com/#getstarted)
 
 ![Exploring the local virtual environment folder](./images/exploring_dot_venv.PNG)
+
+## Muliple Terminals
+![module3](https://github.com/DrSTaylor/streaming-03-rabbitmq/assets/105294873/85a57800-86a1-422b-8e76-7bda219dcaf2)
+loring_dot_venv.PNG)
