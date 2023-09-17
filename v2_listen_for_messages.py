@@ -30,7 +30,7 @@ logger, logname = setup_logger(__file__)
 # ---------------------------------------------------------------------------
 
 
-def process_message(ch, method, properties, body):
+def process_message(hn, method, properties, body):
     """
     Callback function to process a received message.
     The signature of this function is defined by the Pika library.
@@ -51,7 +51,7 @@ def process_message(ch, method, properties, body):
 # define a main function to run the program
 # pass in the hostname as a string parameter if you like
 # if no argument is provided, set a default value to localhost
-def main(hn: str = "localhosttt"):
+def main(hn: str = "localhost"):
     """Main program entry point."""
 
     # when a statement can go wrong, use a try-except block
